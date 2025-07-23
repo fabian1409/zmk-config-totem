@@ -87,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7                &kp N8              &kp N9               &kp N0
-        &trans        &trans        &trans        &trans        &trans    &kp LEFT      &mt RIGHT_SHIFT DOWN  &mt RCTRL UP_ARROW  &mt RIGHT_ALT RIGHT  &trans
-&trans  &kp HOME      &kp END       &kp PG_UP     &kp PG_DN     &trans    &trans        &trans                &trans              &trans               &trans  &trans
-                                    &trans        &trans        &trans    &mo 3         &trans                &trans
+        &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp N7                &kp N8              &kp N9               &kp N0
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp LEFT      &mt RIGHT_SHIFT DOWN  &mt RCTRL UP_ARROW  &mt RIGHT_ALT RIGHT  &trans
+&trans  &kp HOME          &kp END           &kp PG_UP         &kp PG_DN         &trans        &trans        &trans                &trans              &trans               &trans  &trans
+                                            &trans            &trans            &trans        &mo 3         &trans                &trans
             >;
         };
 
@@ -113,10 +113,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH                &kp DLLR                         &kp PRCNT         &kp CARET         &kp AMPS                           &kp ASTRK                &kp MINUS  &kp EQUAL
-        &trans    &trans  &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE   &mt RIGHT_SHIFT RIGHT_PARENTHESIS  &mt RCTRL RIGHT_BRACKET  &trans     &trans
-&trans  &trans    &trans  &kp BACKSLASH           &kp DOUBLE_QUOTES                &kp LT            &kp GREATER_THAN  &kp SINGLE_QUOTE                   &kp GRAVE                &trans     &trans     &trans
-                          &trans                  &trans                           &mo 3             &trans            &trans                             &trans
+        &kp EXCL  &kp AT             &kp HASH                &kp DLLR                         &kp PRCNT         &kp CARET         &kp AMPS                           &kp ASTRK                &kp MINUS  &kp EQUAL
+        &trans    &kp DOUBLE_QUOTES  &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE   &mt RIGHT_SHIFT RIGHT_PARENTHESIS  &mt RCTRL RIGHT_BRACKET  &kp UNDER  &kp PLUS
+&trans  &trans    &kp SINGLE_QUOTE   &kp BACKSLASH           &kp PIPE                         &kp LT            &kp GREATER_THAN  &kp TILDE                          &kp GRAVE                &trans     &trans     &trans
+                                     &trans                  &trans                           &mo 3             &trans            &trans                             &trans
             >;
         };
 
